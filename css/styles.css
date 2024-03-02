@@ -33,13 +33,26 @@ header {
 header img{
     width: 150px;
     height: 30px;
-    margin: 10px;
+    margin-top: 60px;
     align-self: center;
 }
 .header-tittle-container {
     width: 90%;
     min-width: 288px;
     max-width: 900px;
-    height: 218px;
-    margin-top: 50px;
+    height: 210px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.header-tittle-container h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: white;
+}
+.header-tittle-container p {
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
+    color: var(--soft-orange);
+    line-height: 1.8rem;
 }
