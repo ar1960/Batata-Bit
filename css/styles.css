@@ -42,14 +42,14 @@ header img{
     max-width: 900px;
     height: 210px;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 1px;
 }
 .header-tittle-container h1 {
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.6rem;
-    color: white;
-}
+    color: white;}
+    
 .header-tittle-container p {
     margin-top: 1.5rem;
     font-size: 1.4rem;
