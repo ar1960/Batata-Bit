@@ -215,9 +215,30 @@ main {
     font-size: 1.2rem;
 }
 .section-productdetailes span{
-    width: 20px;
-    height: 20px;
-    margin: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    width: 25px;
+    height: 25px;
+}
+.reloj{
+    background-image: url('../assets/icons/clock.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ojo{
+    background-image: url('../assets/icons/eye.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.dolar{
+    background-image: url('../assets/icons/dollar-sign.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.check{
+    background-image: url('../assets/icons/check-circle.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
