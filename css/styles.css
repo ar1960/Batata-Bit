@@ -90,12 +90,28 @@ main {
     background-color: var(--off-white);
 }
 .section-exchange{
-    display: flex;
-    justify-content: center;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.section-exchange .exchange-background{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url('../assets/img/Bitcoin.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .exchange-title{
     margin-top: 50px;
     width: 85%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 .exchange-title h2{
     font-size: 2rem;
