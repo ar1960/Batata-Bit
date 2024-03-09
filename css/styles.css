@@ -195,6 +195,11 @@ main {
     height: 910px;
     background-color: var(--warm-black);
 }
+.section-productdetailes .productdetailes-title{
+    width: 90%;
+    height: 90px;
+    margin: 0  auto;
+}
 .section-productdetailes article{
     width: 90%;
     height: 152px;
