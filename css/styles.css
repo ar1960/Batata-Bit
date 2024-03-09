@@ -27,6 +27,8 @@ header {
     height: 350px;
     text-align: center;
     background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 header img{
     width: 200px;
@@ -56,6 +58,7 @@ header img{
     /*posicion*/
     position: absolute;
     left: calc(50% - 115px);
+    display: block;
     top: 305px;
     padding: 15px;
     margin-top: 15px;
