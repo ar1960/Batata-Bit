@@ -153,3 +153,15 @@ main {
     color: var(--gray);
     background: var(--just-white);
 }
+.tablecurrency-tablecontainer .table-topleft{
+    border-top-left-radius: 15px;
+}
+.tablecurrency-tablecontainer .table-topright{
+    border-top-right-radius: 15px;
+}
+.tablecurrency-tablecontainer .table-bottomleft{
+    border-bottom-left-radius: 15px;
+}
+.tablecurrency-tablecontainer .table-bottomright{
+    border-bottom-right-radius: 15px;
+}
