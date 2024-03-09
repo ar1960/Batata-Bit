@@ -58,7 +58,7 @@ header img{
 .header-button{
     /*posicion*/
     position: absolute;
-    left: calc(50% - 115px);
+    left: calc(50% - 125px);
     display: block;
     top: 305px;
     padding: 15px;
@@ -129,6 +129,7 @@ main {
     margin: 0 auto;
 }
 .tablecurrency-title {
+    margin-top: 20px;
     margin-bottom: 10px ;
     font-size: 1.8rem;
     font-weight: bold;
@@ -192,14 +193,27 @@ main {
 }
 .section-productdetailes{
     width: 100%;
-    height: 910px;
+    height: 1000px;
     background-color: var(--warm-black);
 }
 .section-productdetailes .productdetailes-title{
     width: 90%;
-    height: 70px;
+    height: 80px;
     padding-top: 20px;
-    margin: auto;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.section-productdetailes .productdetailes-title h2{
+    font-size: 2.4rem;
+    color: var(--just-white);
+    text-align: center;
+    line-height: 20px;
+}
+.section-productdetailes .productdetailes-title p{
+    font-size: 1.6rem;
+    color: var(--gray);
+    text-align: center;
 }
 .section-productdetailes article{
     width: 90%;
