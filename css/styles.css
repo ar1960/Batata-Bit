@@ -216,6 +216,23 @@ main {
     background-position: center;
     background-repeat: no-repeat;
 }
+.productdetail-title{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+}
+.productdetail-title h2{
+    color: var(--just-white);
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    margin-bottom: 5px;
+}
+.productdetail-title p{
+    color: var(--off-white);
+    margin-bottom: 35px;
+}
 .section-productdetail article{
     width: 95%;
     height: 152px;
