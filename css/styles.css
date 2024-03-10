@@ -230,17 +230,20 @@ main {
     margin-bottom: 5px;
 }
 .productdetail-title p{
-    color: var(--off-white);
+    color: var(--gray);
     margin-bottom: 35px;
 }
 .section-productdetail article{
-    width: 95%;
-    height: 152px;
-    margin: 0 auto;
-    background-color: grey;
-    opacity: 50%;
-    margin-top: 15px;
-    border-radius: 4px;
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: hsl(0, 0%, 19%);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba( 0, 0, 0, 0.16);
+
 }
 .section-productdetail h3{
     color: var(--just-white);
@@ -252,34 +255,27 @@ main {
     margin-top: 5px;
     margin-left: 15px;
     font-size: 1.2rem;
+    color: var(--gray);
 }
 .section-productdetail article div{
     width: 20px;
     height: 20px;
     margin-left: 10px;
     margin-top: 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .reloj{
     background-image: url('../assets/icons/clock.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 .ojo{
     background-image: url('../assets/icons/eye.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 .dolar{
     background-image: url('../assets/icons/dollar-sign.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+
 }
 .check{
     background-image: url('../assets/icons/check-circle.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
