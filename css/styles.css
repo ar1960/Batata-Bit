@@ -237,7 +237,7 @@ main {
     width: 90%;
     min-width: 288px;
     max-width: 400px;
-    min-height: 150px;
+    min-height: 100px;
     margin: 15px auto;
     padding: 15px;
     background-color: hsl(0, 0%, 19%);
