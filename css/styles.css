@@ -326,8 +326,18 @@ main {
         font-weight: 500;
         line-height: 1.8rem;
     }
+    .plans-slider{
+        display: flex;
+        gap: 25px;
+        padding: 0 25px;
+        height: 420px;
+        overflow-x: scroll;
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x proximity;
+    }
     .plans-card{
         position: relative;
+        scroll-snap-align: center;
         background: #FFFFFF;
         width: 60%;
         min-width: 288px;
@@ -343,6 +353,7 @@ main {
         width: 120px;
         height: 31px;
         background: var(--orange-bitcoin);
+        font-size: 1.4rem;
         color: var(--just-white);
         padding: 8px;
         border-radius: 5px;
@@ -398,3 +409,4 @@ main {
     background-image: url('../assets/icons/orange-right-arrow.svg');
     vertical-align: text-bottom;
     }
+ 
