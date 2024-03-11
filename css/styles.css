@@ -302,6 +302,7 @@ main {
     min-width: 320px;
     padding-bottom: 70px;
     text-align: center;
+    background: var(--off-white);
 }
 .section-plans .plans-header{
     width: 90%;
@@ -325,4 +326,38 @@ main {
         font-weight: 500;
         line-height: 1.8rem;
     }
-    
+    .plans-card{
+        position: relative;
+        background: #FFFFFF;
+        width: 60%;
+        min-width: 288px;
+        max-width: 295px;
+        height: auto;
+        margin: 50px auto;
+        padding: 30px 10px;
+        border-radius: 15px;
+        box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    }
+    .recomendado{
+        position: absolute;
+        background: var(--orange-bitcoin);
+        color: var(--just-white);
+        padding: 8px;
+        border-radius: 5px;
+        top: -20px;
+        left: calc(50% - 43px);
+        box-shadow: 0px 6px 10px rgba(89, 73, 30, 0.16);
+    }
+    .plan-button-choise{
+        padding: 5px;
+        margin: 5px;
+    }
+    .arrow{
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/icons/right-arrow.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    }
