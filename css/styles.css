@@ -432,6 +432,8 @@ main {
     }
     footer a {
         text-decoration: none;
+        font-size: 1.4rem;
+        font-weight: bold;
         color: var(--off-white);
     }
     footer a:hover {
