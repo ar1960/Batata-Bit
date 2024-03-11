@@ -109,7 +109,7 @@ main {
 }
 .exchange-title{
     margin-top: 50px;
-    width: 85%;
+    width: 90%;
     min-width: 288px;
     max-width: 900px;
     margin: 0 auto;
@@ -296,5 +296,33 @@ main {
     font-weight: bold;
     line-height: 2.6rem;
     color: var(--just-white);
-
 }
+.section-plans{
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.section-plans .plans-header{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.section-plans .plans-header h2{
+        color: var(--black);
+        font-size: 2.4rem;
+        font-weight: bold;
+        line-height: 2.6rem;
+        margin-bottom: 5px;
+    }
+.section-plans .plans-header p{
+        color: var(--warm-black);
+        padding-top: 15px;
+        margin-bottom: 35px;
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 1.8rem;
+    }
+    
