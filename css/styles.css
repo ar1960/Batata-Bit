@@ -440,3 +440,16 @@ main {
         text-decoration: none;
         color: var(--warm-black);
     }
+    footer section div{
+        text-align: center;
+    }
+    footer section div p{
+        width: 55% ;
+        font-size: 0.8rem;
+        margin: 5px auto;
+        color: var(--off-white);
+    }
+    footer section div img{
+        width: 50%;
+        margin: 0 auto;
+    }
