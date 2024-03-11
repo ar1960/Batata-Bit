@@ -340,17 +340,47 @@ main {
     }
     .recomendado{
         position: absolute;
+        width: 120px;
+        height: 31px;
         background: var(--orange-bitcoin);
         color: var(--just-white);
         padding: 8px;
         border-radius: 5px;
         top: -20px;
-        left: calc(50% - 43px);
+        left: calc(50% - 60px);
         box-shadow: 0px 6px 10px rgba(89, 73, 30, 0.16);
+    }
+    .container-plan{
+        margin: 10px auto;
+    }
+    .plan-title{
+        padding-top: 20px;
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 1.8rem;
+        color: var(--black);
+    }
+    .plan-price{
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 5.3rem;
+    color: var(--warm-black);
+    }
+    .plan-price sup{
+        font-size: 1.2rem;
+        font-weight: 300;
+        vertical-align: 25px;
+        color: black;
+    }
+    .plan-saving{
+        font-family: sans-serif;
+        font-size: 1.2rem;
+        color: var(--gray);
     }
     .plan-button-choise{
         padding: 5px;
-        margin: 5px;
+        margin: 30px 5px;
     }
     .arrow{
     width: 20px;
