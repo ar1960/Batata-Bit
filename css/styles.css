@@ -340,7 +340,7 @@ main {
         scroll-snap-align: center;
         background: #FFFFFF;
         width: 60%;
-        min-width: 288px;
+        min-width: 200px;
         max-width: 295px;
         height: auto;
         margin: 50px auto;
@@ -390,7 +390,7 @@ main {
         color: var(--gray);
     }
     .plan-button-choise{
-        width: 170px;
+        width: 160px;
         height: 48px;
         background-color: white;
         border: 2px solid var(--orange-bitcoin);
