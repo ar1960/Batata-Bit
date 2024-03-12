@@ -88,7 +88,7 @@ header img{
 main {
     width: 100%;
     height: auto;
-    background-color: var(--off-white);
+    background-color: var(--gray);
 }
 .section-exchange{
     width: 100%;
@@ -410,8 +410,9 @@ main {
     vertical-align: text-bottom;
     }
     .plan-button-choise:hover{
-        background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+        background: linear-gradient(207.8deg, #fceb03 0.1%, #F7931A 100%);
         color: var(--just-white);
+        border: none;
         box-shadow: 0px 10px 14px rgba(89, 73, 30, 0.16);
     }
     footer{
@@ -426,30 +427,31 @@ main {
         align-items: center;
         width: 50%;
     }
-    footer li {
+    .left li {
         list-style: none;
         margin-top: 10px;
     }
-    footer a {
+    .left a {
         text-decoration: none;
         font-size: 1.8rem;
         font-weight: bold;
         color: var(--off-white);
     }
-    footer a:hover {
+    .left a:hover {
         text-decoration: none;
         color: var(--warm-black);
     }
-    footer section div{
+    .right div{
         text-align: center;
     }
-    footer section div p{
+    .right div p{
         width: 55% ;
         font-size: 0.8rem;
         margin: 5px auto;
         color: var(--off-white);
+        box-shadow: 0px 10px 14px rgba(89, 73, 30, 0.16);
     }
-    footer section div img{
+    .right div img{
         width: 50%;
         margin: 0 auto;
     }
