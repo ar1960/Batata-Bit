@@ -143,7 +143,7 @@ main {
     width: 50%;
     padding: 5px;
     font-size: 1.6rem;
-    font-weight: 500px;
+    font-weight: 500;
     line-height: 1.9rem;
     color: var(--gray);
     background: var(--just-white);
